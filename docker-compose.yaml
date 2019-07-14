@@ -16,6 +16,6 @@ services:
       HASURA_GRAPHQL_DATABASE_URL: postgres://postgres:@postgres:5432/postgres
       HASURA_GRAPHQL_ENABLE_CONSOLE: "false" # set to "false" to disable console
       ## uncomment next line to set an admin secret
-      HASURA_GRAPHQL_ADMIN_SECRET: illnevertell
+      # HASURA_GRAPHQL_ADMIN_SECRET: illnevertell
 volumes:
   db_data:
