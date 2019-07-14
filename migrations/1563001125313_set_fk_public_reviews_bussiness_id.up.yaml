@@ -1,0 +1,6 @@
+- args:
+    sql: "\n           alter table \"public\".\"reviews\"\n           add constraint
+      \"reviews_bussiness_id_fkey\" \n           foreign key (\"bussiness_id\") \n
+      \          references \"public\".\"businesses\"\n           (\"id\") on update
+      restrict on delete restrict;\n      "
+  type: run_sql
